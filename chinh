@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quà của LNgoc!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bg-music" src="music.mp3" autoplay loop></audio>
+    <div class="card" id="birthday-card">
+        <h1>Chúc mừng sinh nhật Linh Ngọc! 🎂</h1>
+        <p>Hôm nay là ngày đặc biệt của cậu, hãy nhấn vào nút dưới đây để khám phá những bất ngờ nhé!</p>
+        <button id="start-btn">Khám phá bất ngờ</button>
+    </div>
+    <div class="gifts" id="gifts-section" style="display:none;">
+        <h2>Những món quà dành cho cậuuu 💝</h2>
+        <div class="gift-list">
+            <div class="gift" data-gift="1">🎁</div>
+            <div class="gift" data-gift="2">🎁</div>
+            <div class="gift" data-gift="3">🎁</div>
+        </div>
+        <div id="gift-content"></div>
+    </div>
+    <div id="effect-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
