@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #f9d6e5 0%, #f6f7fa 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    max-width: 400px;
+    margin: 60px auto 30px auto;
+    padding: 32px 24px;
+    text-align: center;
+    animation: fadeIn 1s;
+}
+.card h1 {
+    color: #e75480;
+    margin-bottom: 12px;
+}
+.card button {
+    background: #e75480;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 18px;
+    transition: background 0.2s;
+}
+.card button:hover {
+    background: #c0395b;
+}
+.gifts {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    animation: fadeIn 1s;
+}
+.gift-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 32px 0 24px 0;
+}
+.gift {
+    font-size: 3em;
+    cursor: pointer;
+    transition: transform 0.2s;
+    user-select: none;
+}
+.gift:hover {
+    transform: scale(1.2) rotate(-10deg);
+}
+#gift-content {
+    min-height: 80px;
+    margin-top: 18px;
+    font-size: 1.2em;
+    color: #e75480;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+#effect-container {
+    position: fixed;
+    left: 0; top: 0; width: 100vw; height: 100vh;
+    pointer-events: none;
+    z-index: 100;
+}
