@@ -23,7 +23,7 @@ gifts.forEach(gift => {
 
 function showGiftContent(id) {
     if (id == '1') {
-        giftContent.innerHTML = '<b>Lời chúc:</b> Chúc Linh Ngọc luôn vui vẻ, hạnh phúc và xinh đẹp như bây giờ! 💖';
+        giftContent.innerHTML = '<b>Lời chúc:</b> Chúc .... luôn vui vẻ, hạnh phúc và xinh đẹp như bây giờ! 💖';
         showHearts();
     } else if (id == '2') {
         // Hiển thị slideshow 10 ảnh lớn, lần lượt hiện ra
